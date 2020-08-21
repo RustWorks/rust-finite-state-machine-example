@@ -257,7 +257,7 @@ fn main() {
 * [Pretty State Machine pattern (Archive)](https://web.archive.org/web/20200821185524/https://hoverbear.org/blog/rust-state-machine-pattern/)
 
 ### An another example of state machine
-```
+```Rust
 #[derive(Debug, PartialEq)]
 enum State {
     Waiting { waiting_time: usize },
